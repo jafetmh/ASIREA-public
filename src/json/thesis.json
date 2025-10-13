@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Sistema Agroforestal Familiar Integrado y de Seguridad Alimentaria y Nutricional",
+        "img": "./images/LibroSAF.png",
+        "text": "Manual que recopilar la experiencia de técnicos y agricultores de forma práctica, breve, flexible, de fácil entendimiento y con una ilustración afiche resumen. Está dirigido a agricultores familiares interesados en mejorar la producción de sus fincas y en aumentar la calidad y diversidad de alimentos así como mejorar la soberanía alimentaria familiar.",
+        "link": "./files/Libro SAF.pdf"
+    },
+    {
+        "title": "Fauna del corredor biológico Río Parismina",
+        "img": "./images/Fauna parismina.png",
+        "text": "Resultado de un fototrampeo realizado en el 2021 en áreas boscosas del corredor biológico Río Parismina. El material generado busca generar conciencia a las comunidades aledañas acerca de la fauna presente.",
+        "link": "./files/Resultado 1.2 Libro.pdf"
+    },
+    {
+        "title": "Tesis",
+        "img": "./images/tesis.png",
+        "text": "<b>Propuesta de un sistema de industrialización y comercialización de madera de Gmelina arborea (Melina) proveniente de plantaciones forestales de beneficiarios de ASIREA (Asociación para el Desarrollo Sostenible de la Región Atlántica).</b> <br> Monzerrat Rivera Tenotio",
+        "link": "./files/Informe_Final.pdf"
+    },
+    {
+        "title": "Tesis",
+        "img": "./images/tesis3.png",
+        "text": "<b> Propuesta de oferta de productos terminados con madera de Gmelina arborea en el cliente final de la cadena de valos de ASIREA en Pococí, Limón, Costa Rica. </b> <br> Keyla Tatiana Pereira Ramírez",
+        "link": "./files/propuesta_oferta_productos_terminados_madera.pdf"
+    },
+    {
+        "title": "Tesis",
+        "img": "./images/tesis2.png",
+        "text": "<b> Factores que influyen en la producción en vivero de la especie Ochroma pyramidale (Cav. ex Lam.) Urb. (balsa) en Costa Rica. </b> <br> Evelyn Brenes Arroyo",
+        "link": "./files/TFG_Evelyn_Brenes_Arroyo.pdf"
+    }
+]
