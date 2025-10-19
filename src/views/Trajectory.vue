@@ -20,7 +20,7 @@
             </div>
         </section>
         <section class="row">
-            <CardList json-url="src/json/colaborations.json" />
+            <CardList data-url="src/json/colaborations.json" :signal-events="null"/>
         </section>
         <section class="container">
             <div class="row">
@@ -39,7 +39,7 @@
             </div>
         </section>
         <section class="row">
-            <CardList json-url="src/json/projects.json" :show-button="true" button-text="Conocer más"
+            <CardList data-url="src/json/projects.json" :signal-events="null" :show-button="true" button-text="Conocer más"
                 :target-blank="true" />
         </section>
         <section class="container">
@@ -76,7 +76,7 @@
             </div>
         </section>
         <section class="row">
-            <CardList json-url="src/json/techniques.json" :show-button="true" button-text="Ver documento"
+            <CardList data-url="src/json/techniques.json" :signal-events="null" :show-button="true" button-text="Ver documento"
                 :target-blank="true" />
         </section>
 
@@ -88,7 +88,7 @@
             </div>
         </section>
         <section class="row">
-            <CardList json-url="src/json/thesis.json" :show-button="true" button-text="Ver documento"
+            <CardList data-url="src/json/thesis.json" :signal-events="null" :show-button="true" button-text="Ver documento"
                 :target-blank="true" />
         </section>
     </div>

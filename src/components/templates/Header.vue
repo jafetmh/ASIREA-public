@@ -3,7 +3,7 @@
     <!-- Móvil -->
     <div class="mainHamburger">
       <div class="cnavmovil">
-        <a class="ctitle" href="index.html">
+        <a class="ctitle" href="/">
           <img src="/images/logo.png" alt="logo" />
           <span class="chidemovil">ASIREA</span>
         </a>
@@ -16,7 +16,7 @@
     <!-- Escritorio -->
     <div class="row chead mainMenu">
       <div class="col-md-2 cmidle">
-        <a class="ctitle" href="index.html">
+        <a class="ctitle" href="/">
           <img src="/images/logo.png" />
           <span class="cmidle">ASIREA</span>
         </a>

@@ -33,6 +33,7 @@
     box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
     transition: all 0.3s ease;
     cursor: pointer;
+    z-index: 100;
 }
 
 .cbuttonwhatsapp:hover {
@@ -63,6 +64,7 @@
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     pointer-events: none;
     border: 2px solid #fff;
+    z-index: 100;
 }
 
 .whatsapp-container:hover .whatsapp-label {
@@ -86,24 +88,5 @@
 .whatsapp-container:hover .cbuttonwhatsapp {
     animation: none;
 }
-/* .cbuttonwhatsapp {
-    background-color: #014a36;
-    color: #ebebeb;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 6;
-    bottom: 60px;
-    right: 10px;
-    width: 70px;
-    height: 70px;
-    border-radius: 20px;
-    border: solid 3px #fff;
-}
-
-.cbuttonwhatsapp a {
-    color: #ebebeb;
-} */
 
 </style>

@@ -66,7 +66,7 @@
                 <div class="col-md-4 cmap">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4831.5684999162795!2d-83.77627962416561!3d10.212449869341368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0b8101ad5f637%3A0x2ea7ba245230e7bf!2sASIREA!5e1!3m2!1ses!2scr!4v1750606473497!5m2!1ses!2scr"
-                        width="500" height="325" style="border:0;" allow="" loading="lazy"
+                        width="400" height="325" style="border:0;" allow="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                     <p class="texto">
                         <b>Dirección física de la oficina:</b>
