@@ -1,8 +1,8 @@
 <template>
   <div class="ccard" @mouseover="hover = true" @mouseleave="hover = false">
-    <div class="ccardhead">{{ data.title }}</div>
+    <div class="ccardhead">{{ data.titulo }}</div>
     <div class="ccardbody">
-      <img :src="data.img" class="ccardimg" />
+      <img :src="data.imagenUrl" class="ccardimg" />
       <div class="ccardtext" :class="hover ? 'animationin' : 'animationout'">
         <p>{{ shortText }}</p>
         <button class="btn btn-primary active ccarda" @click="$emit('show-modal', data)">
@@ -34,6 +34,6 @@ const props = defineProps({
 
 const hover = ref(false)
 const shortText = computed(() =>
-  props.data.text.length > 75 ? props.data.text.slice(0, 75) + '...' : props.data.text
+  props.data.descripcion.length > 75 ? props.data.descripcion.slice(0, 75) + '...' : props.data.descripcion
 )
 </script>

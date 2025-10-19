@@ -31,7 +31,7 @@
             </div>
         </section>
         <section class="row">
-            <CardList json-url="src/json/activities.json" />
+            <CardList data-url="src/json/activities.json" :signal-events="null"/>
         </section>
         <section class="row">
             <div id="card">

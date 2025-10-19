@@ -16,7 +16,7 @@
       </div>
     </section>
     <section class="row">
-      <CardList json-url="src/json/news.json" />
+      <CardList data-url="noticia" :signal-events="signalEvents"/>
     </section>
     <section class="row">
       <div class="col-md-4 text-center cservices">
@@ -72,4 +72,10 @@
 import WatsAppBtn from "../components/WatsAppBtn.vue";
 import Carousel from "@/components/Carousel.vue";
 import CardList from '@/components/CardList.vue'
+
+const signalEvents = {
+  createdEventName: "NoticiaCreada",
+  updatatedEventName: "NoticiaActualizada",
+  deletedEventName: "NoticiaEliminada"
+}
 </script>
