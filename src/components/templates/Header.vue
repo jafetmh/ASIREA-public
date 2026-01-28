@@ -1,5 +1,5 @@
 <template>
-  <header class="container-fluid">
+  <header class="container-fluid" :class="{ 'header-transparent': isScrolled }">
     <!-- Móvil -->
     <div class="mainHamburger">
       <div class="cnavmovil">
@@ -29,7 +29,12 @@
             :key="item.href"
             :active="$route.path === item.href ? '' : null"
           >
-            <router-link :to="item.href">
+            <router-link
+              :to="item.href"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              :title="item.text"
+            >
               <i :class="['bi', item.icon, 'cicon']"></i>
             </router-link>
           </li>
@@ -40,6 +45,27 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted } from 'vue';
+import { Tooltip } from 'bootstrap';
+
+const isScrolled = ref(false);
+let tooltipInstances = [];
+
+function handleScroll() {
+  isScrolled.value = window.scrollY > 50;
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+  const tooltipEls = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+  tooltipInstances = [...tooltipEls].map(el => new Tooltip(el));
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
+  tooltipInstances.forEach(t => t.dispose());
+});
+
 const menu = [
   { text: "Inicio", icon: "bi-house", href: "/" },
   { text: "Servicios", icon: "bi-card-list", href: "/services" },
@@ -51,6 +77,17 @@ const menu = [
 </script>
 
 <style scoped>
+.header-transparent {
+  background-color: rgba(90, 98, 93, 0.737) !important;
+  backdrop-filter: blur(8px);
+  transition: background-color 0.3s ease;
+}
+
+header.container-fluid {
+  max-width: 100vw;
+  transition: background-color 0.3s ease;
+}
+
 .cnav a {
   color: #fff;
   text-decoration: none;

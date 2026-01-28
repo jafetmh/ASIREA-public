@@ -30,7 +30,7 @@
     height: 70px;
     border-radius: 20px;
     border: solid 3px #fff;
-    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+    box-shadow: 0 4px 15px rgba(0,0,0, 0.4);
     transition: all 0.3s ease;
     cursor: pointer;
     z-index: 100;
@@ -38,7 +38,6 @@
 
 .cbuttonwhatsapp:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6);
 }
 
 .cbuttonwhatsapp a {
@@ -58,7 +57,7 @@
     font-size: 14px;
     font-weight: 600;
     white-space: nowrap;
-    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+    box-shadow: 0 4px 15px rgba(0,0,0, .5);
     opacity: 0;
     transform: translateX(20px);
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -74,10 +73,10 @@
 
 @keyframes pulse {
     0%, 100% {
-        box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        box-shadow: 0 4px 15px rgba(0,0,0, 0.4);
     }
     50% {
-        box-shadow: 0 4px 25px rgba(37, 211, 102, 0.7);
+        box-shadow: 0 4px 25px rgba(28, 92, 51, 0.871);
     }
 }
 

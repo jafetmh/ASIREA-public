@@ -1,8 +1,14 @@
 <template>
-  <div class="ccards">
+  <div class="ccards" v-if="items.length > 0">
     <CardItem v-for="(item, i) in items" :key="i" :data="item" :is-button="showButton" :button-text="buttonText"
       :target-blank="targetBlank" @show-modal="showModal" />
     <InfoModal v-if="selectedItem" :item="selectedItem" @close="selectedItem = null" />
+  </div>
+  <div v-else-if="loaded" class="cempty-state">
+    <div class="cempty-container">
+      <i :class="['bi', emptyIcon, 'cempty-icon']"></i>
+      <p class="cempty-text">{{ emptyText }}</p>
+    </div>
   </div>
 </template>
 
@@ -19,11 +25,14 @@ const props = defineProps({
   signalEvents: { type: Object, required: true },
   showButton: { type: Boolean, default: false },
   buttonText: { type: String, default: '' },
-  targetBlank: { type: Boolean, default: false }
+  targetBlank: { type: Boolean, default: false },
+  emptyText: { type: String, default: 'No hay publicaciones disponibles por el momento.' },
+  emptyIcon: { type: String, default: 'bi-newspaper' }
 })
 
 const items = ref([])
 const selectedItem = ref(null)
+const loaded = ref(false)
 
 const showModal = (item) => {
   selectedItem.value = item
@@ -34,8 +43,8 @@ const { on, isConnected } = useSignalR(`${baseApiURL}` + "appHub");
 onMounted(async () => {
   try {
     let res = null;
-    if (props.dataUrl.startsWith("src")) {
-      res = await fetch(dataUrl);
+    if (props.dataUrl.startsWith("src")) { //json local
+      res = await fetch(props.dataUrl);
       items.value = await res.json()
     } else {
       res = await fetch(`${baseApiURL}api/${props.dataUrl}`)
@@ -45,6 +54,8 @@ onMounted(async () => {
 
   } catch (e) {
     console.error('Error cargando de solicitud:', e)
+  } finally {
+    loaded.value = true
   }
 })
 
