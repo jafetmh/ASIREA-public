@@ -1,10 +1,12 @@
 <template>
   <div class="container-fluid">
-    <Carousel />
-    <section class="row cupdate">
-      <a href="./services.html" class="cbotoncar" style="width: 300px; text-align: center;">
+    <div data-aos="fade-in" data-aos-duration="800">
+      <Carousel />
+    </div>
+    <section class="row cupdate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+      <router-link to="/services" class="cbotoncar" style="width: 300px; text-align: center;">
         Más información
-      </a>
+      </router-link>
     </section>
     <section class="row">
       <div class="container-fluid">
@@ -20,22 +22,22 @@
         empty-text="No hay noticias disponibles por el momento." empty-icon="bi-newspaper" />
     </section>
     <!-- Servicios -->
-    <section class="info-block">
+    <section class="info-block" data-aos="fade-up" data-aos-duration="600">
       <div class="info-row">
         <div class="info-img" data-aos="fade-right" data-aos-duration="800">
           <img src="/images/servicios_inicio.png" alt="Servicios ofrecidos" />
         </div>
         <div class="info-content">
-          <span class="info-label" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Lo que hacemos</span>
-          <h2 class="info-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Servicios ofrecidos</h2>
-          <p class="info-text" data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
+          <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Lo que hacemos</span>
+          <h2 class="info-title" data-aos="fade-up" data-aos-duration="700" data-aos-delay="450">Servicios ofrecidos</h2>
+          <p class="info-text" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
             Contamos con un vivero forestal con producción de árboles de calidad de semilla certificada.
             Brindamos servicio de regencia forestal para trámites de aprovechamiento forestal en suelos de uso
             agrícola y pecuario.
             Facilitamos el proceso para la participación en el programa nacional de pago por servicios ambientales.
             Ofrecemos asesoría técnica para el manejo de su proyecto forestal con fines comerciales o ecológicos.
           </p>
-          <router-link to="/services" class="ver-mas" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+          <router-link to="/services" class="ver-mas" data-aos="fade-up" data-aos-duration="600" data-aos-delay="800">
             Conocer más <i class="bi bi-arrow-right"></i>
           </router-link>
         </div>
@@ -43,21 +45,21 @@
     </section>
 
     <!-- Trayectoria -->
-    <section class="info-block info-block--alt">
+    <section class="info-block info-block--alt" data-aos="fade-up" data-aos-duration="600">
       <div class="info-row info-row--reverse">
         <div class="info-img" data-aos="fade-left" data-aos-duration="800">
           <img src="/images/trayectoria_inicio.png" alt="Trayectoria" />
         </div>
         <div class="info-content">
-          <span class="info-label" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Nuestra historia</span>
-          <h2 class="info-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Trayectoria</h2>
-          <p class="info-text" data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
+          <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Nuestra historia</span>
+          <h2 class="info-title" data-aos="fade-up" data-aos-duration="700" data-aos-delay="450">Trayectoria</h2>
+          <p class="info-text" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
             Con casi 40 años de existencia, ASIREA ha trabajado para el beneficio de los productores y el ambiente.
             Hemos participado en proyectos de conservación, restauración y educación ambiental, realizamos acciones
             de capacitación para productores forestales y emprendimientos agro-ambientales, trabajamos en el
             mejoramiento de los mercados en busca de mejorar los ingresos para el productor.
           </p>
-          <router-link to="/trajectory" class="ver-mas" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+          <router-link to="/trajectory" class="ver-mas" data-aos="fade-up" data-aos-duration="600" data-aos-delay="800">
             Conocer más <i class="bi bi-arrow-right"></i>
           </router-link>
         </div>
@@ -65,21 +67,21 @@
     </section>
 
     <!-- Donaciones -->
-    <section class="info-block">
+    <section class="info-block" data-aos="fade-up" data-aos-duration="600">
       <div class="info-row">
         <div class="info-img" data-aos="fade-right" data-aos-duration="800">
           <img src="/images/donar_inicio.png" alt="Donaciones" />
         </div>
         <div class="info-content">
-          <span class="info-label" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Sé parte del cambio</span>
-          <h2 class="info-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Donaciones</h2>
-          <p class="info-text" data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
+          <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Sé parte del cambio</span>
+          <h2 class="info-title" data-aos="fade-up" data-aos-duration="700" data-aos-delay="450">Donaciones</h2>
+          <p class="info-text" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
             Con tu apoyo, aportamos herramientas a comunidades rurales tendientes a promover una producción
             sostenible con rostro humano. Cada aporte financia acciones concretas como la promoción y divulgación
             de proyectos de desarrollo y mejora en fincas, el desarrollo de viveros, la educación ambiental,
             el acompañamiento técnico a productores y el acceso a incentivos de conservación.
           </p>
-          <router-link to="/donate" class="ver-mas" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+          <router-link to="/donate" class="ver-mas" data-aos="fade-up" data-aos-duration="600" data-aos-delay="800">
             Conocer más <i class="bi bi-arrow-right"></i>
           </router-link>
         </div>
