@@ -4,7 +4,7 @@
     <div class="mainHamburger">
       <div class="cnavmovil">
         <a class="ctitle" href="/">
-          <img src="/images/logo.png" alt="logo" />
+          <img src="/images/logo.webp" alt="logo" />
           <span class="chidemovil">ASIREA</span>
         </a>
         <a id="hamburgerMenuButton" class="ctitle" @click="$emit('toggleMenu')">
@@ -17,7 +17,7 @@
     <div class="row chead mainMenu mx-0">
       <div class="col-md-2 cmidle">
         <a class="ctitle" href="/">
-          <img src="/images/logo.png" />
+          <img src="/images/logo.webp" />
           <span class="cmidle">ASIREA</span>
         </a>
       </div>

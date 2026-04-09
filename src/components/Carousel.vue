@@ -18,7 +18,7 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/images/Carrusel1c.png" class="d-block w-100" alt="Slide 1">
+                    <img src="/images/Carrusel1c.webp" class="d-block w-100" alt="Slide 1">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Creemos en la conservación y el desarrollo</h2>
                         <br>
@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/Carrusel2c.png" class="d-block w-100" alt="Slide 2">
+                    <img src="/images/Carrusel2c.webp" class="d-block w-100" alt="Slide 2">
                     <div class="carousel-caption d-none d-md-block">
 
                         <h2>Impulsamos sistemas agroforestales</h2>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/Carrusel3c.png" class="d-block w-100 c-image" alt="Slide 3">
+                    <img src="/images/Carrusel3c.webp" class="d-block w-100 c-image" alt="Slide 3">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Apoyamos la producción sostenible</h2>
                         <br>
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/Carrusel4c.png" class="d-block w-100" alt="Slide 4">
+                    <img src="/images/Carrusel4c.webp" class="d-block w-100" alt="Slide 4">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Producimos material de calidad</h2>
                         <br>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/Carrusel5c.png" class="d-block w-100" alt="Slide 5">
+                    <img src="/images/Carrusel5c.webp" class="d-block w-100" alt="Slide 5">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Acompañamos sueños en crecimiento</h2>
                         <br>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/Carrusel6c.png" class="d-block w-100" alt="Slide 6">
+                    <img src="/images/Carrusel6c.webp" class="d-block w-100" alt="Slide 6">
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Le acompañamos en el proceso del cambio</h2>
                         <br>

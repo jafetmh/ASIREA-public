@@ -3,7 +3,7 @@
     <!-- Hero: PSA -->
     <section class="hero-section">
       <div class="hero-overlay"></div>
-      <img src="/images/psa_servicios.png" alt="Programa PSA" class="hero-bg" />
+      <img src="/images/psa_servicios.webp" alt="Programa PSA" class="hero-bg" />
       <div class="hero-content" data-aos="fade-up" data-aos-duration="800">
         <span class="hero-label">Programa del Estado costarricense</span>
         <h1 class="hero-title">Pago por Servicios Ambientales</h1>
@@ -34,7 +34,7 @@
     <section class="svc-block">
       <div class="svc-row">
         <div class="svc-img" data-aos="fade-right" data-aos-duration="800">
-          <img src="/images/vivero_servicios.png" alt="Vivero forestal" />
+          <img src="/images/vivero_servicios.webp" alt="Vivero forestal" />
         </div>
         <div class="svc-content">
           <span class="svc-label" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Producción forestal</span>
@@ -56,7 +56,7 @@
     <section class="svc-block svc-block--alt">
       <div class="svc-row svc-row--reverse">
         <div class="svc-img" data-aos="fade-left" data-aos-duration="800">
-          <img src="/images/aprovechamiento_servicios.png" alt="Permisos de aprovechamiento" />
+          <img src="/images/aprovechamiento_servicios.webp" alt="Permisos de aprovechamiento" />
         </div>
         <div class="svc-content">
           <span class="svc-label" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Trámites forestales</span>
@@ -77,7 +77,7 @@
     <section class="svc-block">
       <div class="svc-row">
         <div class="svc-img" data-aos="fade-right" data-aos-duration="800">
-          <img src="/images/grupos_servicios.png" alt="Atención a grupos" />
+          <img src="/images/grupos_servicios.webp" alt="Atención a grupos" />
         </div>
         <div class="svc-content">
           <span class="svc-label" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Educación ambiental</span>
@@ -97,7 +97,7 @@
     <section class="svc-block svc-block--alt">
       <div class="svc-row svc-row--reverse">
         <div class="svc-img" data-aos="fade-left" data-aos-duration="800">
-          <img src="/images/asesoria_servicios.png" alt="Asesoría técnica forestal" />
+          <img src="/images/asesoria_servicios.webp" alt="Asesoría técnica forestal" />
         </div>
         <div class="svc-content">
           <span class="svc-label" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Asistencia profesional</span>

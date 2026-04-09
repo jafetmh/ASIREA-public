@@ -17,7 +17,7 @@
             </div>
             <div class="info-row">
                 <div class="info-img" data-aos="fade-right" data-aos-duration="800">
-                    <img src="/images/Portada_quines_somos.png" alt="¿Qué es ASIREA?" />
+                    <img src="/images/Portada_quines_somos.webp" alt="¿Qué es ASIREA?" />
                 </div>
                 <div class="info-content">
                     <span class="info-label" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Nuestra
@@ -50,7 +50,7 @@
         <section class="mv-block">
             <div class="mv-row">
                 <div class="mv-img" data-aos="fade-right" data-aos-duration="800">
-                    <img src="/images/quienes_somos1.png" alt="Misión ASIREA" />
+                    <img src="/images/quienes_somos1.webp" alt="Misión ASIREA" />
                 </div>
                 <div class="mv-content">
                     <span class="mv-label" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Nuestro
@@ -79,7 +79,7 @@
         <section class="mv-block mv-block--alt">
             <div class="mv-row mv-row--reverse">
                 <div class="mv-img" data-aos="fade-left" data-aos-duration="800">
-                    <img src="/images/quienes_somos2.png" alt="Visión ASIREA" />
+                    <img src="/images/quienes_somos2.webp" alt="Visión ASIREA" />
                 </div>
                 <div class="mv-content">
                     <span class="mv-label" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Hacia el
@@ -209,7 +209,7 @@ onMounted(async () => {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: url('/images/Portada_quines_somos.png') center/cover no-repeat;
+    background: url('/images/Portada_quines_somos.webp') center/cover no-repeat;
     opacity: 0.15;
 }
 

@@ -108,7 +108,7 @@
                         </div>
                         <div class="donate-form-group" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
                             <label for="mail" class="donate-form-label">Correo electrónico</label>
-                            <input type="email" class="donate-form-input" id="mail" placeholder="nombre@ejemplo.com"
+                            <input type="email" class="donate-form-input" id="mail" placeholder="correo@ejemplo.com"
                                 required>
                         </div>
                         <div class="donate-form-group" data-aos="fade-up" data-aos-duration="500" data-aos-delay="250">
@@ -423,7 +423,7 @@ import WatsAppBtn from "@/components/WatsAppBtn.vue"
     justify-content: center;
     gap: 10px;
     padding: 16px 32px;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    background: var(--primary);
     color: #fff;
     font-size: 1rem;
     font-weight: 600;

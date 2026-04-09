@@ -289,7 +289,7 @@ a.contact-card:hover {
     justify-content: center;
     gap: 10px;
     padding: 16px 32px;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    background: var(--primary);
     color: #fff;
     font-size: 1rem;
     font-weight: 600;

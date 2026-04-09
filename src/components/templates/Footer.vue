@@ -30,7 +30,7 @@
                 <!-- Logo Column -->
                 <div class="footer-col footer-col--logo">
                     <router-link to="/home" class="footer-logo">
-                        <img src="/images/Logo BN-01.png" alt="ASIREA Logo" />
+                        <img src="/images/Logo BN-01.webp" alt="ASIREA Logo" />
                     </router-link>
                     <p class="footer-tagline">
                         Asociación para el Desarrollo Sostenible de la Región Atlántica

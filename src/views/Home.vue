@@ -21,7 +21,7 @@
     <section class="info-block" data-aos="fade-up" data-aos-duration="600">
       <div class="info-row">
         <div class="info-img" data-aos="fade-right" data-aos-duration="800">
-          <img src="/images/servicios_inicio.png" alt="Servicios ofrecidos" />
+          <img src="/images/servicios_inicio.webp" alt="Servicios ofrecidos" />
         </div>
         <div class="info-content">
           <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Lo que hacemos</span>
@@ -45,7 +45,7 @@
     <section class="info-block info-block--alt" data-aos="fade-up" data-aos-duration="600">
       <div class="info-row info-row--reverse">
         <div class="info-img" data-aos="fade-left" data-aos-duration="800">
-          <img src="/images/trayectoria_inicio.png" alt="Trayectoria" />
+          <img src="/images/trayectoria_inicio.webp" alt="Trayectoria" />
         </div>
         <div class="info-content">
           <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Nuestra
@@ -68,7 +68,7 @@
     <section class="info-block" data-aos="fade-up" data-aos-duration="600">
       <div class="info-row">
         <div class="info-img" data-aos="fade-right" data-aos-duration="800">
-          <img src="/images/donar_inicio.png" alt="Donaciones" />
+          <img src="/images/donar_inicio.webp" alt="Donaciones" />
         </div>
         <div class="info-content">
           <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Sé parte del
