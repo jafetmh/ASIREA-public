@@ -8,13 +8,13 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 ccardstitle" data-aos="fade-down" data-aos-duration="600">
-            <h1>Noticias</h1>
+            <h1>Anuncios</h1>
           </div>
         </div>
       </div>
     </section>
     <section class="row" data-aos="fade-up" data-aos-duration="800">
-      <CardList data-url="noticia" empty-text="No hay noticias disponibles por el momento." empty-icon="bi-megaphone"
+      <CardList data-url="noticia" empty-text="No hay anuncios publicados por el momento." empty-icon="bi-megaphone"
         categoria-slug="anuncios" />
     </section>
     <!-- Servicios -->
