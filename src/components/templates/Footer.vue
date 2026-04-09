@@ -107,7 +107,7 @@
    FOOTER BASE
    ****************** */
 .footer {
-    background: linear-gradient(180deg, #1a3d1a 0%, #0d1f0d 100%);
+    background: linear-gradient(180deg, #014a36 0%, #0d1f0d 100%);
     color: #fff;
 }
 
@@ -194,7 +194,7 @@
     color: #fff;
     margin: 0 0 20px;
     padding-bottom: 12px;
-    border-bottom: 2px solid var(--primary-light, #4caf50);
+    border-bottom: 2px solid var(--boder-muted,#b7c2b8);
     display: inline-block;
 }
 
@@ -220,7 +220,7 @@
 
 .footer-contact-link:hover {
     color: #fff;
-    transform: translateX(4px);
+    font-size: 1.05rem;
 }
 
 .footer-contact-link svg {

@@ -2,7 +2,7 @@
   <div class="ccard" @mouseover="hover = true" @mouseleave="hover = false">
     <div class="ccardhead">{{ data.titulo }}</div>
     <div class="ccardbody">
-      <img :src="data.imagenUrl || 'images/noticia-default.png'" :class="['ccardimg', {'default-img': !data.imagenUrl}]" />
+      <img :src="data.imagenPortadaUrl || 'images/noticia-default.png'" :class="['ccardimg', {'default-img': !data.imagenUrl}]" />
       <div class="ccardtext" :class="hover ? 'animationin' : 'animationout'">
         <p>{{ shortText }}</p>
         <button class="btn btn-primary active ccarda" @click="$emit('show-modal', data)">
@@ -13,7 +13,7 @@
     <div class="ccardfoot">
       <a v-if="isButton"
         class="btn btn-primary active ccarda"
-        :href="data.documentoUrl"
+        :href="data.documentos[0].url"
         :target="targetBlank ? '_blank' : '_self'"
       >
         {{ buttonText }}

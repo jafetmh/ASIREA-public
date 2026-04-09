@@ -71,7 +71,7 @@
     transform: translateX(0);
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
     0%, 100% {
         box-shadow: 0 4px 15px rgba(0,0,0, 0.4);
     }
@@ -82,7 +82,7 @@
 
 .cbuttonwhatsapp {
     animation: pulse 2s infinite;
-}
+} */
 
 .whatsapp-container:hover .cbuttonwhatsapp {
     animation: none;

@@ -126,8 +126,8 @@
                         <div class="team-card-info">
                             <h4 class="team-card-name">{{ miembro.nombre }}</h4>
                             <span class="team-card-position">{{ miembro.puesto }}</span>
-                            <p class="team-card-occupation">{{ miembro.ocupacion }}</p>
-                        </div>
+<!--                             <p class="team-card-occupation">{{ miembro.ocupacion }}</p>
+ -->                        </div>
                     </div>
                 </template>
             </div>
@@ -330,6 +330,9 @@ onMounted(async () => {
 
 .info-content {
     flex: 1;
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-radius: 12px;
 }
 
 .info-label {
@@ -590,7 +593,7 @@ onMounted(async () => {
     font-size: 0.85rem;
     font-weight: 600;
     color: #fff;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    background: var(--primary);
     padding: 4px 14px;
     border-radius: 20px;
     margin-bottom: 10px;
@@ -644,8 +647,8 @@ onMounted(async () => {
     align-items: center;
     justify-content: center;
     background-color: #e8ebe8;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
+/*     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ */}
 
 .staff-card-img img {
     width: 100%;

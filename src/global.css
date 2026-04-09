@@ -14,12 +14,16 @@
 
     /* Paleta principal */
     --primary: #014a36;
+    --bg-primary: #24624b;
     --primary-light: #518b55;
     --accent: #3be6c1;
     --accent-hover: #2fd1ae;
     --secondary: #fa9500;
     --secondary-light: #fadb9c;
     --secondary-hover: #fae7c2;
+    --secondary-text-color: #d1cece;
+
+
 
     /* Textos */
     --text-dark: #000000;
@@ -34,6 +38,8 @@
     /* Bordes */
     --border-light: #e0e0e0;
     --border-muted: #ccc;
+
+    --card-bg: #dadada;
 }
 
 body {
@@ -523,10 +529,10 @@ section {
     font-weight: 800;
 }
 
-.cbotoncar:hover {
+/* .cbotoncar:hover {
     background-color: #fae7c2;
 
-}
+} */
 
 .cboton {
     color: #fff;
@@ -866,37 +872,4 @@ section {
 
 .tooltip[data-popper-placement^="right"] .tooltip-arrow::before {
     border-right-color: #fff;
-}
-
-/* Empty state */
-.cempty-state {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 40px 20px;
-}
-
-.cempty-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #f7f7f7;
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 40px 60px;
-}
-
-.cempty-icon {
-    font-size: 4rem;
-    color: #bbb;
-    margin-bottom: 16px;
-}
-
-.cempty-text {
-    font-size: 1.2rem;
-    color: #888;
-    text-align: center;
-    margin: 0;
 }

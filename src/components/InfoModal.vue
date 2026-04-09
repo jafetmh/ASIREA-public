@@ -7,7 +7,7 @@
         </div>
         <div class="modal-body ccardModalBody">
           <div class="modal-image-wrapper">
-            <img :src="item.imagenUrl" class="modal-image" />
+            <img :src="item.imagenPortadaUrl" class="modal-image" />
           </div>
           <div class="modal-description" v-html="item.descripcion"></div>
         </div>
@@ -88,6 +88,7 @@ function close() {
   box-shadow: 0 25px 80px rgba(0, 0, 0, 0.35);
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 /* ── Modal Body Layout ── */

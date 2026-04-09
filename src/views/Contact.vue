@@ -187,7 +187,7 @@ a.contact-card:hover {
 .contact-card-icon {
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    background: var(--primary);
     border-radius: 12px;
     display: flex;
     align-items: center;

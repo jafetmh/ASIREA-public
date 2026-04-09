@@ -22,8 +22,8 @@
     <!-- Colaboraciones cards -->
     <section class="traj-cards-section">
       <div data-aos="fade-up" data-aos-duration="800">
-        <CardList data-url="src/json/colaborations.json" :signal-events="null"
-          empty-text="No hay colaboraciones disponibles por el momento." empty-icon="bi-people" />
+        <CardList data-url="/json/colaborations.json" :signal-events="null"
+          empty-text="No hay colaboraciones disponibles por el momento." empty-icon="bi-people" categoria-slug="colaboradores"/>
       </div>
     </section>
 
@@ -41,7 +41,7 @@
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
         <CardList data-url="proyecto" :signal-events="proyectosSignalEvents" :show-button="true"
           button-text="Conocer más" :target-blank="true"
-          empty-text="No hay proyectos disponibles por el momento." empty-icon="bi-folder" />
+          empty-text="No hay proyectos para mostrar por el momento." empty-icon="bi-folder" categoria-slug="proyectos"/>
       </div>
     </section>
 
@@ -77,7 +77,6 @@
       <!-- Informes y tesis -->
       <div class="traj-subsection" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
         <h3 class="traj-subtitle">
-          <i class="bi bi-journal-text"></i>
           Informes y tesis
         </h3>
       </div>

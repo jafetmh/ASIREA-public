@@ -309,7 +309,7 @@ import WatsAppBtn from "@/components/WatsAppBtn.vue"
 .donate-account-currency {
     width: 40px;
     height: 40px;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    background:  var(--primary);
     border-radius: 50%;
     display: flex;
     align-items: center;

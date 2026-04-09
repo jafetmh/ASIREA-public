@@ -25,8 +25,8 @@
         Actividades del programa PSA
       </h2>
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-        <CardList data-url="src/json/activities.json" :signal-events="null"
-          empty-text="No hay actividades disponibles por el momento." empty-icon="bi-calendar-event" />
+        <CardList data-url="" :signal-events="null"
+          empty-text="No hay actividades publicadas por el momento." categoria-slug="actividades"/>
       </div>
     </section>
 

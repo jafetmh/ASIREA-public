@@ -14,7 +14,7 @@
     </div>
 
     <!-- Escritorio -->
-    <div class="row chead mainMenu">
+    <div class="row chead mainMenu mx-0">
       <div class="col-md-2 cmidle">
         <a class="ctitle" href="/">
           <img src="/images/logo.png" />
@@ -84,7 +84,8 @@ const menu = [
 }
 
 header.container-fluid {
-  max-width: 100vw;
+  width: 100%;
+  overflow-x: hidden;
   transition: background-color 0.3s ease;
 }
 

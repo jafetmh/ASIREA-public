@@ -3,11 +3,7 @@
     <div data-aos="fade-in" data-aos-duration="800">
       <Carousel />
     </div>
-    <section class="row cupdate" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
-      <router-link to="/services" class="cbotoncar" style="width: 300px; text-align: center;">
-        Más información
-      </router-link>
-    </section>
+    
     <section class="row">
       <div class="container-fluid">
         <div class="row">
@@ -18,8 +14,8 @@
       </div>
     </section>
     <section class="row" data-aos="fade-up" data-aos-duration="800">
-      <CardList data-url="noticia" :signal-events="signalEvents"
-        empty-text="No hay noticias disponibles por el momento." empty-icon="bi-newspaper" />
+      <CardList data-url="noticia" empty-text="No hay noticias disponibles por el momento." empty-icon="bi-megaphone"
+        categoria-slug="anuncios" />
     </section>
     <!-- Servicios -->
     <section class="info-block" data-aos="fade-up" data-aos-duration="600">
@@ -29,7 +25,8 @@
         </div>
         <div class="info-content">
           <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Lo que hacemos</span>
-          <h2 class="info-title" data-aos="fade-up" data-aos-duration="700" data-aos-delay="450">Servicios ofrecidos</h2>
+          <h2 class="info-title" data-aos="fade-up" data-aos-duration="700" data-aos-delay="450">Servicios ofrecidos
+          </h2>
           <p class="info-text" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
             Contamos con un vivero forestal con producción de árboles de calidad de semilla certificada.
             Brindamos servicio de regencia forestal para trámites de aprovechamiento forestal en suelos de uso
@@ -51,7 +48,8 @@
           <img src="/images/trayectoria_inicio.png" alt="Trayectoria" />
         </div>
         <div class="info-content">
-          <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Nuestra historia</span>
+          <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Nuestra
+            historia</span>
           <h2 class="info-title" data-aos="fade-up" data-aos-duration="700" data-aos-delay="450">Trayectoria</h2>
           <p class="info-text" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
             Con casi 40 años de existencia, ASIREA ha trabajado para el beneficio de los productores y el ambiente.
@@ -73,7 +71,8 @@
           <img src="/images/donar_inicio.png" alt="Donaciones" />
         </div>
         <div class="info-content">
-          <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Sé parte del cambio</span>
+          <span class="info-label" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Sé parte del
+            cambio</span>
           <h2 class="info-title" data-aos="fade-up" data-aos-duration="700" data-aos-delay="450">Donaciones</h2>
           <p class="info-text" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
             Con tu apoyo, aportamos herramientas a comunidades rurales tendientes a promover una producción
@@ -96,11 +95,6 @@ import WatsAppBtn from "../components/WatsAppBtn.vue";
 import Carousel from "@/components/Carousel.vue";
 import CardList from '@/components/CardList.vue'
 
-const signalEvents = {
-  createdEventName: "NoticiaCreada",
-  updatatedEventName: "NoticiaActualizada",
-  deletedEventName: "NoticiaEliminada"
-}
 </script>
 
 <style scoped>

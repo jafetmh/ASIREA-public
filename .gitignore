@@ -25,3 +25,6 @@ dist-ssr
 # documentos
 src/public-src/*
 src/files/*
+
+#env
+.env.development
