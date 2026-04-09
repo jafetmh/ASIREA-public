@@ -49,7 +49,7 @@ async function fetchData() {
       res = await fetch(props.dataUrl);
       items.value = await res.json()
     } else {
-      res = await fetch(`${baseApiURL}api/publicaciones?categoriaSlug=${props.categoriaSlug}`)
+      res = await fetch(`${baseApiURL}/api/publicaciones?categoriaSlug=${props.categoriaSlug}`)
       const response = await res.json()
       items.value = response.data;
     }
